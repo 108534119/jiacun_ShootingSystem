@@ -1,0 +1,5 @@
+{
+  "name": "jiacun/shooting-auth-api",
+  "description": "PHP account API and Gmail verification emails for Jia Cun shooting range.",
+  "require": { "php": "^8.1", "phpmailer/phpmailer": "^6.10" }
+}

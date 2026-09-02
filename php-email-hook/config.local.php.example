@@ -1,0 +1,16 @@
+<?php
+// 複製為 config.local.php 後填入值；此檔不可上傳 Git 或放到公開網頁根目錄。
+return [
+    // 僅能放在 PHP 伺服器，絕不能放進前端。
+    'supabase_url' => 'https://你的專案.supabase.co',
+    'supabase_secret_key' => '填入 Supabase secret key',
+    'smtp_host' => 'smtp.gmail.com',
+    'smtp_port' => 587,
+    'smtp_username' => '你的Gmail@gmail.com',
+    'smtp_password' => '16位Google應用程式密碼',
+    'from_email' => '你的Gmail@gmail.com',
+    'from_name' => '賈村戰技體驗場',
+    'allowed_origins' => ['http://localhost:3000', 'https://jiacun-shooting-range.mythic-lemur-0953.chatgpt.site'],
+    'session_name' => 'jiacun_range_session',
+    'session_cookie_secure' => true,
+];
